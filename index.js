@@ -103,7 +103,7 @@ function flipImg(){
                 
                 document.querySelector(".score").innerHTML = "Congrats, you have won";
             }
-        },100);
+        },300);
     }
     
 }
