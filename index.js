@@ -1,4 +1,5 @@
-const grid = document.querySelector(".grid");
+document.addEventListener('DOMContentLoaded', () => {
+    const grid = document.querySelector(".grid");
 var chosenImg = [];
 var chosenImgId = [];
 var ans = 0;
@@ -109,3 +110,5 @@ function flipImg(){
 }
 
 createGrid();
+});
+
